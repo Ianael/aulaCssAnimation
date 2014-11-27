@@ -4,15 +4,19 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1.0">
 		<style>
-			div {
+			div{
 				width: 100px;
 				height: 100px;
 				background: tomato;
 				-webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* For Safari 3.1 to 6.0 */
-				transition: width 2s, height 2s, transform 2s;
+				transition: width 2s, 
+                                    height 2s,
+                                    transform 2s,
+                                    background-color: 2s;
 				text-align:center;
 				color:white;
-				font-size:17px;
+				font-size:20px;
+                                font-family: Old Book Style;
 			}
 
 			div:hover {
@@ -20,6 +24,7 @@
 				height: 200px;
 				-webkit-transform: rotate(180deg);
 				transform: rotate(360deg);
+                                background-color: lightskyblue;
 			}
 		</style>
 	</head>

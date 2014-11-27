@@ -1,0 +1,46 @@
+<!-- http://www.w3schools.com/css/css3_animations.asp -->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            #animada {
+                width: 100px;
+                height: 100px;
+                background-image: url(Img/bola.png);
+                position: absolute;
+                left: 50%;
+                -webkit-animation: segunda 3s; /* Chrome, Safari, Opera */
+                top: 300px;
+            }
+            
+            #chao{
+                margin-top: 380px;
+                height: 30px;
+                background-color: green;
+            }
+
+            /* Chrome, Safari, Opera */
+            @-webkit-keyframes segunda {
+                0%   {top:0px;}
+                10%  {top:300px;}
+                20%  {top:50px;}
+                30%  {top:300px}
+                40%  {top:100px}
+                50%  {top:300px}
+                60%  {top:150px}
+                70%  {top:300px}
+                80%  {top:200px}
+                90%  {top:300px}
+                95%  {top:250px}
+                100%  {top:300px}
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div id="animada"></div>
+        <div id="chao"></div>
+    </body>
+</html>

@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<title>Exemplo de Transition</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<style>
+			div {
+				width: 100px;
+				height: 100px;
+				background: tomato;
+				-webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* For Safari 3.1 to 6.0 */
+				transition: width 2s, height 2s, transform 2s;
+				text-align:center;
+				color:white;
+				font-size:17px;
+			}
+
+			div:hover {
+				width: 200px;
+				height: 200px;
+				-webkit-transform: rotate(180deg);
+				transform: rotate(360deg);
+			}
+		</style>
+	</head>
+	<body>
+	<div>Hahaha</div>
+	</body>
+</html>
+
